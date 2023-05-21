@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="364dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/sahil" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Çin'de bulunan Kırmızı sahil, Parjin şehrinin 30 km güney batısında Liaohe Nehri Deltası bulunuyor.Adını tuzlu-alkali topraklarda yayılan deniz otu türünün (flourishes) görünümünden almaktadır.ilkbahar (Nisan-Mayıs) aylarında büyümeye başlayan bu otlar, yaz boyunca yeşil kalır.Sonbaharda ise kırmızı renge dönüşür ve  bir plaj manzarası oluşturur.Kırmızı Plaj, bir doğa rezervi olduğu için küçük bir bölümü hariç halka kapalıdır." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/tiny" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Dünyanın birçok ülkesinde, minimalist, sade bir yaşam tarzını benimseyen insanlar, Tiny House adı verilen “bir evden küçük ama bir evden fazlası” bu süper kullanışlı evlerde yaşamayı seçiyor. Küçük ev hareketi, geçici bir heves olmaktan çıkıp dünyada bir trend haline geldi."
+                android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="269dp"
+                android:layout_marginBottom="20dp"
+                android:padding="15dp"
+                android:src="@drawable/kopek" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold"
+                android:text="Evinize bir neşe arıyorsanız bu canlı Jack Rusell olabilir.18. yüzyılda İngiltere'de keşfedilmiştir. O dönemlerde av köpeği olarak yetiştiriliyordu. Şimdilerde av köpekliğinin yanı sıra şov köpeği, bekçi köpeği gibi görevleri de rahatlıkta yapabiliyor.Bu köpeklerin dişi yetişkinleri 23-36 santimetre arasında büyürken, erkekler ise 25-38 cm arasında büyür.  Dişilerin ortalama ağırlığı 5,5-7,5 kilogram arasında iken erkeklerde bu 6 ile 8 kilogram arasında değişiklik gösterir.Derisi incedir ama kürkü suya dayanaklıdır. Tüyleri kısa ve çok sık değildir. Kuyrukları bedenlerine göre uzundurOyun oynamaya bayılan bir köpektir.  Zeki olması nedeniyle de çoğu oyunu çok çabuk kavrayabiliyor.Enerjik oluşu ve tüm gün oradan oraya koşma isteği ile apartman yaşamından ara ara bunalabilirler. Bu sebeple enerjilerini atabilecek bahçeli bir ev onları daha mutlu edecektir. Apartmanda yaşayan Jack Russell'ın ise mutlu olabilmesi için günlük en az iki kere egzersiz ihtiyaçlarının karşılanması gerekir.Onunla bol bol oyunlar oynamalı, vakit geçirmelisiniz. Aksi taktirde çok kolay depresyona girebilirler.Jack Russell köpek ırkının bakımı oldukça kolaydır. Bunun en büyük sebebi tüylerinin kısa olmasıdır. Haftada bir kez taranması tüyleri için yeterli olacaktır.Sağlıklı bir Jack Russell'ın ömrü 13 ile 15 yıl arasında değişmektedir." />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="439dp"
+                android:padding="15dp"
+                android:src="@drawable/kedi" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:textStyle="bold"
+                android:text="Chinchilla'lar genellikle sakin ve uysal kedilerdir. Yumuşak, melodik bir sesi vardır. Sevgisini belli eden, ilgi görmekten hoşlanan Chinchilla sahibine sadakatle bağlanabilir. Chinchilla'lar her ne kadar hassas ve kırılgan bir görünüme sahip olsalar da oldukça sağlıklı ve dayanıklıdır. Persian ırkı içerisinde ayrı bir sınıf olarak değerlendirilen Chinchilla'lar Persian ırkının temel özelliklerini taşır. Chinchillalar günlük olarak en az 15 dk fırçalanmalıdır. Aksi takdirde tüyleri kolarca düğümlenir."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
